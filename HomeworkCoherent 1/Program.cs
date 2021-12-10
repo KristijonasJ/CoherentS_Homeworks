@@ -6,7 +6,7 @@ namespace HomeworkCoherent_1
 {
     class Program
     {
-        static string convertToTernary(int N)
+        string convertToTernary(int N)
         {
             if (N == 0)
                 return "";
@@ -22,14 +22,14 @@ namespace HomeworkCoherent_1
 
             Console.WriteLine("Enter the second number:");
             var b = int.Parse(Console.ReadLine());
+            var program = new Program();
 
             for(int i = Math.Min(a, b); i <= Math.Max(a, b); i++)
             {
-                string number = convertToTernary(Math.Abs(i));
+                string number = program.convertToTernary(Math.Abs(i));
                 if (number.Count(x => x == '2') == 2)
                     Console.WriteLine(i);
             }
         }
-
     }
 }

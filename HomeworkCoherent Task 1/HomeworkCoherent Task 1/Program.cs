@@ -24,7 +24,7 @@ namespace HomeworkCoherent_1
             var b = int.Parse(Console.ReadLine());
             var program = new Program();
 
-            for(int i = Math.Min(a, b); i <= Math.Max(a, b); i++)
+            for (int i = Math.Min(a, b); i <= Math.Max(a, b); i++)
             {
                 string number = program.convertToTernary(Math.Abs(i));
                 if (number.Count(x => x == '2') == 2)

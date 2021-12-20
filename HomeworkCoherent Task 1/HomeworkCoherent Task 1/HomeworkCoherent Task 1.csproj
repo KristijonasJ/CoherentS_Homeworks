@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>HomeworkCoherent_1</RootNamespace>
+    <RootNamespace>HomeworkCoherent_Task_1</RootNamespace>
   </PropertyGroup>
 
 </Project>
